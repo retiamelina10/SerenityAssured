@@ -1,4 +1,4 @@
-package Starter.Stepdefinitions.Project;
+package Starter.Project;
 
 import org.json.simple.JSONObject;
 
