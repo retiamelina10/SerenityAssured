@@ -35,7 +35,8 @@ public class CreateAccountUserFeature {
     }
 
     public void verifyDetailResponse() {
-        then().body("username", equalTo("Retiaaa"));
+        then().body("username", equalTo("Retiaaa"
+        ));
         then().body("password", equalTo("Keluargacemara-10"));
     }
 }

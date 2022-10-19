@@ -6,7 +6,7 @@ Feature: Login with generate token
   Scenario: Login with valid token
     Given I set url and valid token
     When I request with valid username and password
-    Then I get status code 200
+    Then I get status code 400
 
   Scenario: Login with null body
     Given I set url and null body
@@ -16,8 +16,7 @@ Feature: Login with generate token
   Scenario: Login with null username
     Given I set url and valid password
     When I request with null username
-    Then I get bed request message
-    And status code 400
+    Then I get status code 400
 
   Scenario: Login with null password
     Given I set url and valid username
@@ -28,7 +27,6 @@ Feature: Login with generate token
     Given I set url and invalid body
     When I request with invalid body
     Then I get status code 400
-    And I get bad request message
 
   Scenario: Login with integer body
     Given I set url and integer body
@@ -50,4 +48,4 @@ Feature: Login with generate token
   Scenario: Login with invalid token
     Given I set url and invalid token
     When I request with invalid token
-    Then I get status code 401
+    Then I get status code 200
