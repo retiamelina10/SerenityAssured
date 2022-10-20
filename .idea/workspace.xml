@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8421ce48-475e-4d3c-b955-e6bfa69b3aa5" name="Changes" comment="first">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Starter/Project/CreateAccountUserFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Starter/Project/CreateAccountUserFeature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Project/postloginwithtoken.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Project/postloginwithtoken.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664508772449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first">
+      <created>1666189433350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189433350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
